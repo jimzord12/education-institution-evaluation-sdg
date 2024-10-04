@@ -1,0 +1,25 @@
+{
+  "name": "education-institution-evaluation-sdg",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@happy-dom/global-registrator": "^15.7.4",
+    "@types/bun": "latest",
+    "autoprefixer": "^10.4.20",
+    "jsdom": "^25.0.1",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.5.3",
+    "typescript-tslint-plugin": "^1.0.2",
+    "vite": "^5.4.1",
+    "vitest": "^2.1.2"
+  },
+  "module": "index.ts"
+}
